@@ -11,9 +11,7 @@ import Main from './src/components/main';
 class reactNativeAirbnb extends Component {
   render() {
     return (
-        <View>
-          <Main />
-        </View>
+        <Main />
     );
   }
 }

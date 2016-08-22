@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
+  AppRegistry
 } from 'react-native';
 
 import Main from './src/components/main';
@@ -11,9 +8,7 @@ import Main from './src/components/main';
 class reactNativeAirbnb extends Component {
     render() {
         return (
-            <View>
-                <Main />
-            </View>
+            <Main />
         );
     }
 }
